@@ -156,9 +156,9 @@
 						<div class="product-tab">
 						    <!-- Nav tabs -->
 							<ul class="product-nav" role="tablist">
-								<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">most popular</a></li>
-								<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">best sellar</a></li>
-								<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">new arrival</a></li>
+								<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Most popular</a></li>
+								<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Best seller</a></li>
+								<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">New arrival</a></li>
 							</ul>
 
 							<!-- Tab panes -->
@@ -314,50 +314,50 @@
 		</div>
 		<!-- upcoming-product-area end -->
 		<!-- category-area start -->
-		<div class="category-area pad-60">
-			<div class="container">
-				<div class="row">
-					<div class="section-title">
-						<h2>Trending Items</h2>
-						<div class="title-icon">
-							<span><i class="fa fa-angle-left"></i> <i class="fa fa-angle-right"></i></span>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="product-curosel">
-						<!-- single-product start -->
-						<div class="col-md-12" th:each="trendingProduct:${trending}">
-							<div class="single-product">
-								<div class="product-img">
-									<a th:href="@{~/product/}+${trendingProduct.id}">
-										<img th:src="'data:image/png;base64,'+${trendingProduct.product_image}" alt="" />
-									</a>
-									<span class="tag-line" th:if="${trendingProductsDiscount.containsKey(trendingProduct.id)}">sale</span>
-									<div class="product-action">
-										<div class="button-top">
-											<a th:href="@{~/wishlist/add/}+${trendingProduct.id}"><i class="fa fa-heart"></i></a>
-											<a th:href="@{~/cart/add/}+${trendingProduct.id}"><i class="fa fa-shopping-cart"></i></a>
-										</div>
-									</div>
-								</div>
-								<div class="product-content">
-									<h3><a th:href="@{~/product/}+${trendingProduct.id}" th:text="${trendingProduct.product_name}"></a></h3>
-									<div class="price" th:unless="${popularDiscount.containsKey(trendingProduct.id)}">
-										<span th:text="'Rs.'+${trendingProduct.product_price}+'/-'"></span>
-									</div>
-									<div class="price" th:if="${trendingProductsDiscount.containsKey(trendingProduct.id)}">
-										<span th:text="'Rs.'+(${trendingProduct.product_price} - (${trendingProductsDiscount.get(trendingProduct.id)}/100) * ${trendingProduct.product_price})+'/-'"></span>
-										<span class="old" th:text="'Rs.'+${trendingProduct.product_price}+'/-'"></span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- single-product end -->
-					</div>
-				</div>
-			</div>
-		</div>
+<!--		<div class="category-area pad-60">-->
+<!--			<div class="container">-->
+<!--				<div class="row">-->
+<!--					<div class="section-title">-->
+<!--						<h2>Trending Items</h2>-->
+<!--						<div class="title-icon">-->
+<!--							<span><i class="fa fa-angle-left"></i> <i class="fa fa-angle-right"></i></span>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div class="row">-->
+<!--					<div class="product-curosel">-->
+<!--						&lt;!&ndash; single-product start &ndash;&gt;-->
+<!--						<div class="col-md-12" th:each="trendingProduct:${trending}">-->
+<!--							<div class="single-product">-->
+<!--								<div class="product-img">-->
+<!--									<a th:href="@{~/product/}+${trendingProduct.id}">-->
+<!--										<img th:src="'data:image/png;base64,'+${trendingProduct.product_image}" alt="" />-->
+<!--									</a>-->
+<!--									<span class="tag-line" th:if="${trendingProductsDiscount.containsKey(trendingProduct.id)}">sale</span>-->
+<!--									<div class="product-action">-->
+<!--										<div class="button-top">-->
+<!--											<a th:href="@{~/wishlist/add/}+${trendingProduct.id}"><i class="fa fa-heart"></i></a>-->
+<!--											<a th:href="@{~/cart/add/}+${trendingProduct.id}"><i class="fa fa-shopping-cart"></i></a>-->
+<!--										</div>-->
+<!--									</div>-->
+<!--								</div>-->
+<!--								<div class="product-content">-->
+<!--									<h3><a th:href="@{~/product/}+${trendingProduct.id}" th:text="${trendingProduct.product_name}"></a></h3>-->
+<!--									<div class="price" th:unless="${popularDiscount.containsKey(trendingProduct.id)}">-->
+<!--										<span th:text="'Rs.'+${trendingProduct.product_price}+'/-'"></span>-->
+<!--									</div>-->
+<!--									<div class="price" th:if="${trendingProductsDiscount.containsKey(trendingProduct.id)}">-->
+<!--										<span th:text="'Rs.'+(${trendingProduct.product_price} - (${trendingProductsDiscount.get(trendingProduct.id)}/100) * ${trendingProduct.product_price})+'/-'"></span>-->
+<!--										<span class="old" th:text="'Rs.'+${trendingProduct.product_price}+'/-'"></span>-->
+<!--									</div>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						&lt;!&ndash; single-product end &ndash;&gt;-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
 		<!-- category-area end -->
 		<!-- latest-blog-area start -->
 		<div class="latest-blog-area pad-60">
