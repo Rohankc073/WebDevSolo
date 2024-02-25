@@ -125,7 +125,7 @@ header{
     z-index: 999;
 }
 .header-top {
-    border-bottom: 1px solid #3b4665;
+    border-bottom: 1px solid #000000;
     padding: 5px 0;
 }
 .col-to-us{}
@@ -155,7 +155,7 @@ header{
 3. header-bottom-area
 ---------------------------- */
 .header-bottom-area {
-    background: rgba(0,0,0,.3);
+    background: rgb(0, 0, 0);
 }
 .logo {
     margin-top: 23px;
@@ -185,7 +185,7 @@ header{
 .main-menu ul li:hover a{color:#fe4847}
 .main-menu ul li ul {
     background: #fff none repeat scroll 0 0;
-    box-shadow: 0 1px 2px rgba(86, 86, 90, 0.5);
+    box-shadow: 0 1px 2px rgb(0, 0, 0);
     left: 0;
     opacity: 0;
     position: absolute;
@@ -261,13 +261,13 @@ header{
     text-transform: uppercase;
 }
 .main-menu ul li .mega-menu span a {
-    color: #444;
+    color: black;
     display: block;
     font-weight: 400;
     padding: 8px 0;
     text-transform: capitalize;
 }
-.main-menu ul li:hover .mega-menu span a{color:#444}
+.main-menu ul li:hover .mega-menu span a{color:black}
 .main-menu ul li:hover .mega-menu span a:hover{color:#fe4847}
 .main-menu ul li .mega-menu span.mega-menu-img {
     padding-right: 0;
@@ -680,7 +680,7 @@ a.checkout {
     position: relative;
 }
 .title-icon span::before,.title-icon span::after {
-    border-top: 4px double #666;
+    border-top: 4px double black;
     bottom: 10px;
     content: "";
     height: 1px;
@@ -765,7 +765,7 @@ img.secondary-img {
 .button-cart button {
     background: #fff none repeat scroll 0 0;
     border: 0 none;
-    color: #444;
+    color: black;
     height: 36px;
     line-height: 36px;
     margin-top: 5px;
@@ -778,7 +778,7 @@ img.secondary-img {
     margin-right: 7px;
 }
 .product-content {
-    background: #222 none repeat scroll 0 0;
+    background: black none repeat scroll 0 0;
     padding: 12px 12px;
 }
 .product-content h3 {
@@ -813,13 +813,13 @@ ul.product-nav li {
 }
 ul.product-nav li.active a,ul.product-nav li a:hover{color:#fe4847}
 ul.product-nav li a {
-    color: #666;
+    color: black;
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
 }
 ul.product-nav li::before {
-    background: #666 none repeat scroll 0 0;
+    background: black none repeat scroll 0 0;
     content: "";
     height: 13px;
     position: absolute;
@@ -832,7 +832,7 @@ ul.product-nav li:last-child:before{display:none}
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     border: 1px solid #666;
     border-radius: 0;
-    color: #666;
+    color: black;
     display: inline-block;
     font-size: 22px;
     height: 30px;
@@ -994,7 +994,7 @@ ul.product-nav li:last-child:before{display:none}
     text-transform: uppercase;
 }
 .blog-content h3 a {
-    color: #444;
+    color: black;
 }
 .blog-content h3 a:hover,a.read-more:hover{color:#fe4847}
 .blog-meta {
@@ -1003,7 +1003,7 @@ ul.product-nav li:last-child:before{display:none}
     padding-bottom: 10px;
 }
 .blog-meta span {
-    color: #666;
+    color: black;
     margin-right: 10px;
     text-transform: capitalize;
     position: relative;
@@ -1011,7 +1011,7 @@ ul.product-nav li:last-child:before{display:none}
     text-transform: uppercase;
 }
 .blog-meta span::before {
-    background: #999 none repeat scroll 0 0;
+    background: black none repeat scroll 0 0;
     content: "";
     height: 15px;
     left: -6px;
@@ -1021,7 +1021,7 @@ ul.product-nav li:last-child:before{display:none}
 }
 .blog-meta span:first-child:before {display:none}
 .blog-meta span a {
-    color: #444;
+    color: black;
 }
 .blog-meta span.blog-date{}
 .blog-meta span.blog-author{}
@@ -1048,8 +1048,8 @@ a.read-more {
 9. footer
 ---------------------------- */
 .footer-top {
-    background: #2d2d2d none repeat scroll 0 0;
-    border-bottom: 1px solid #5b5b5b;
+    background: black none repeat scroll 0 0;
+    border-bottom: 1px solid black;
     padding: 55px 0;
 }
 .footer-logo {
@@ -1084,7 +1084,7 @@ ul.footer-menu li a {
     font-size: 13px;
     font-weight: 400;
     line-height: 40px;
-    border-bottom: 1px solid #5b5b5b;
+    border-bottom: 1px solid black;
 }
 ul.footer-menu li:last-child a{border: 0}
 ul.footer-menu li:last-child a{padding-bottom:0;}
@@ -1300,7 +1300,7 @@ ul.sidebar-menu li {
     position: relative;
 }
 ul.sidebar-menu li::before {
-    background: #575757 none repeat scroll 0 0;
+    background: black none repeat scroll 0 0;
     content: "";
     height: 6px;
     position: absolute;
@@ -1308,7 +1308,7 @@ ul.sidebar-menu li::before {
     width: 6px;
 }
 ul.sidebar-menu li a {
-    color: #575757;
+    color: black;
     font-size: 13px;
     font-weight: normal;
     padding-left: 15px;
@@ -1320,7 +1320,7 @@ span.count {
 ul.sidebar-menu li a:before{}
 ul.sidebar-menu li a:hover{color:#FE4847}
 h3.sidebar-title {
-    color: #444;
+    color: black;
     font-size: 17px;
     font-weight: 700;
     margin: 0;
@@ -1351,7 +1351,7 @@ h3.sidebar-title::before {
     text-transform: capitalize;
 }
 .widget.product-tag a {
-    color: #575757;
+    color: black;
 }
 .single-sale {
     position: relative;
@@ -1387,7 +1387,7 @@ h3.sidebar-title::before {
 12. breadcrumb-area
 -------------------------------------*/
 .breadcrumb-area {
-    background: rgba(0, 0, 0, 0) url("../img/breadcrumbs.png") no-repeat scroll center top;
+    background: rgba(0, 0, 0, 0) url("../img/login.jpg") no-repeat scroll center top;
     padding: 215px 0 135px;
     position:relative
 }
@@ -1401,7 +1401,7 @@ h3.sidebar-title::before {
     width: 100%;
 }
 .breadcrumb-list {
-    text-align: center;
+    text-align: left;
 }
 .breadcrumb-list h1 {
     color: #fff;
@@ -1439,7 +1439,7 @@ h3.sidebar-title::before {
 }
 .shop-tab li.active a{color:#FE4847}
 .shop-tab li a {
-    color: #444;
+    color: black;
     font-size: 16px;
 }
 span.sorting-name {
@@ -1517,7 +1517,7 @@ span.sorting-name {
     visibility: visible;
 }
 .shop-list .product-content h3 a {
-    color: #444;
+    color: black;
     font-size: 18px;
     font-weight: 700;
 }
@@ -1528,7 +1528,7 @@ span.sorting-name {
 .shop-list .product-content > p {
     border-bottom: 1px solid #e5e5e5;
     border-top: 1px solid #e5e5e5;
-    color: #444;
+    color: black;
     margin-bottom: 20px;
     margin-top: 15px;
     padding: 10px 0;
@@ -1537,8 +1537,8 @@ span.sorting-name {
     float: left;
 }
 .shop-list .button-top a {
-    border: 1px solid #444;
-    color: #444;
+    border: 1px solid black;
+    color: black;
     float: left;
     height: 35px;
     line-height: 33px;
@@ -1550,8 +1550,8 @@ span.sorting-name {
     color:#fff;
 }
 .shop-list .button-cart button {
-    border: 1px solid #444;
-    color: #444;
+    border: 1px solid black;
+    color: black;
     height: 35px;
     line-height: 16px;
     margin-top: 0;
@@ -1567,7 +1567,7 @@ span.sorting-name {
     padding: 5px;
 }
 .shop-list .price span.old {
-    color: #666;
+    color: black;
 }
 .shop-list .col-md-12{margin-bottom:30px}
 .shop-list .col-md-12:last-child{margin-bottom:0px}
@@ -1609,21 +1609,21 @@ ul.single-product-tab li.active a::before {
     font-size: 20px;
 }
 .shop-details .price span.old {
-    color: #666;
+    color: black;
     font-size: 16px;
 }
 .s-p-rating {
     margin-top: 9px;
 }
 .s-p-rating span.rating i {
-    color: #444;
+    color: black;
     font-size: 12px;
 }
 .s-p-rating span {
     margin-right: 10px;
 }
 .s-p-rating span.review-no a {
-    color:#666
+    color:black;
 }
 .s-p-rating span.review-no a:hover{color:#FE4847}
 .add-review {
@@ -2844,7 +2844,7 @@ span.email-notes{color: #42414f;
     background: #FE4847;
 }
 .comments-content-wrap a {
-    color: #444;
+    color: black;
 }
 .comments-content-wrap a:hover{color:#FE4847}
 .comment-respond .col-md-4{margin:0}
@@ -2865,7 +2865,7 @@ span.email-notes{color: #42414f;
 }
 .category-area-3 .single-product:last-child{margin-top:20px}
 .category-area-3 .product-content h3 a {
-    color: #373737;
+    color: black;
 }
 .category-area-3 .product-content h3 a:hover{
     color: #FE4847;
@@ -2919,8 +2919,8 @@ span.email-notes{color: #42414f;
 9. footer
 ---------------------------- */
 .footer-top {
-    background: #2d2d2d none repeat scroll 0 0;
-    border-bottom: 1px solid #5b5b5b;
+    background: black none repeat scroll 0 0;
+    border-bottom: 1px solid black;
     padding: 55px 0;
 }
 .footer-logo {
@@ -2933,7 +2933,7 @@ span.email-notes{color: #42414f;
     color: #d5d5d5;
 }
 .footer-top-area {
-    background: #2d2d2d none repeat scroll 0 0;
+    background: black none repeat scroll 0 0;
     padding: 50px 0;
 }
 .footer-widget{}
@@ -2955,7 +2955,7 @@ ul.footer-menu li a {
     font-size: 13px;
     font-weight: 400;
     line-height: 40px;
-    border-bottom: 1px solid #5b5b5b;
+    border-bottom: 1px solid black;
 }
 ul.footer-menu li:last-child a{border: 0}
 ul.footer-menu li:last-child a{padding-bottom:0;}

@@ -170,13 +170,12 @@ header {
 
   position: static;
 
-  background: #2d2d2d none repeat scroll 0 0;
+  background: black none repeat scroll 0 0;
 
 }
 
 .header-bottom-area {
-
-  background: #2D2D2D;
+  background: black;
 
 }
 

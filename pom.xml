@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.system</groupId>
-	<artifactId>Fashionhive</artifactId>
+	<artifactId>TrendThreads</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Fashionhive</name>
-	<description>Fashionhive</description>
+	<name>TrendThreads</name>
+	<description>TrendThreads</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
