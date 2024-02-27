@@ -1,10 +1,4 @@
 package com.system.TrendThreads;
-//package com.example.annna_bazar;
-
-//import com.example.annna_bazar.entity.AdminPage;
-//import com.example.annna_bazar.entity.User;
-//import com.example.annna_bazar.repo.AdminPageRepo;
-//import com.example.annna_bazar.services.AdminPageService;
 import com.system.TrendThreads.entity.Product;
 import com.system.TrendThreads.repo.ProductRepo;
 import org.assertj.core.api.Assertions;
