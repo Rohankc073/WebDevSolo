@@ -1,7 +1,4 @@
 package com.system.TrendThreads;
-
-//import com.example.Fashionhive.entity.User;
-//import com.example.annna_bazar.repo.UserRepo;
 import com.system.TrendThreads.entity.User;
 import com.system.TrendThreads.repo.UserRepo;
 import org.assertj.core.api.Assertions;
